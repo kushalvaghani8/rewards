@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF917A85F12CC7DF54247D59 /* Pods_rewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8B04B64371BB21D533B7C3A /* Pods_rewards.framework */; };
 		F06D06D728E00CA700571D06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D06D628E00CA700571D06 /* AppDelegate.swift */; };
 		F06D06D928E00CA700571D06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D06D828E00CA700571D06 /* SceneDelegate.swift */; };
 		F06D06DB28E00CA700571D06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D06DA28E00CA700571D06 /* ViewController.swift */; };
 		F06D06DE28E00CA700571D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D06DC28E00CA700571D06 /* Main.storyboard */; };
 		F06D06E028E00CA800571D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06D06DF28E00CA800571D06 /* Assets.xcassets */; };
 		F06D06E328E00CA800571D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D06E128E00CA800571D06 /* LaunchScreen.storyboard */; };
+		F06D06EB28E015C900571D06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F06D06EA28E015C900571D06 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A279310800CC33703333A61 /* Pods-rewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewards.debug.xcconfig"; path = "Target Support Files/Pods-rewards/Pods-rewards.debug.xcconfig"; sourceTree = "<group>"; };
+		B161CB6A48D3712BB48F5E3C /* Pods-rewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rewards.release.xcconfig"; path = "Target Support Files/Pods-rewards/Pods-rewards.release.xcconfig"; sourceTree = "<group>"; };
+		C8B04B64371BB21D533B7C3A /* Pods_rewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06D06D328E00CA700571D06 /* rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06D06D628E00CA700571D06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06D06D828E00CA700571D06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		F06D06DF28E00CA800571D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06D06E228E00CA800571D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06D06E428E00CA800571D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06D06EA28E015C900571D06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF917A85F12CC7DF54247D59 /* Pods_rewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066280A0F9B4B5ADFBF4AC41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A279310800CC33703333A61 /* Pods-rewards.debug.xcconfig */,
+				B161CB6A48D3712BB48F5E3C /* Pods-rewards.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3F883B544E3F16AB9719C4FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8B04B64371BB21D533B7C3A /* Pods_rewards.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F06D06CA28E00CA600571D06 = {
 			isa = PBXGroup;
 			children = (
 				F06D06D528E00CA700571D06 /* rewards */,
 				F06D06D428E00CA700571D06 /* Products */,
+				066280A0F9B4B5ADFBF4AC41 /* Pods */,
+				3F883B544E3F16AB9719C4FB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +88,7 @@
 				F06D06DA28E00CA700571D06 /* ViewController.swift */,
 				F06D06DC28E00CA700571D06 /* Main.storyboard */,
 				F06D06DF28E00CA800571D06 /* Assets.xcassets */,
+				F06D06EA28E015C900571D06 /* GoogleService-Info.plist */,
 				F06D06E128E00CA800571D06 /* LaunchScreen.storyboard */,
 				F06D06E428E00CA800571D06 /* Info.plist */,
 			);
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F06D06E728E00CA800571D06 /* Build configuration list for PBXNativeTarget "rewards" */;
 			buildPhases = (
+				E5601C47206C6CA75882FC82 /* [CP] Check Pods Manifest.lock */,
 				F06D06CF28E00CA600571D06 /* Sources */,
 				F06D06D028E00CA600571D06 /* Frameworks */,
 				F06D06D128E00CA600571D06 /* Resources */,
+				03900A4966D50FA038D4C3B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				F06D06E328E00CA800571D06 /* LaunchScreen.storyboard in Resources */,
+				F06D06EB28E015C900571D06 /* GoogleService-Info.plist in Resources */,
 				F06D06E028E00CA800571D06 /* Assets.xcassets in Resources */,
 				F06D06DE28E00CA700571D06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03900A4966D50FA038D4C3B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rewards/Pods-rewards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rewards/Pods-rewards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rewards/Pods-rewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5601C47206C6CA75882FC82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rewards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F06D06CF28E00CA600571D06 /* Sources */ = {
@@ -282,6 +355,7 @@
 		};
 		F06D06E828E00CA800571D06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A279310800CC33703333A61 /* Pods-rewards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +383,7 @@
 		};
 		F06D06E928E00CA800571D06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B161CB6A48D3712BB48F5E3C /* Pods-rewards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
