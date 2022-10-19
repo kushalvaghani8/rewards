@@ -82,7 +82,7 @@ class RedeemVC: UIViewController {
         itemArray.append(ItemModel(imageName: "workfromhome", name: "WFH - 3 days",
                                    point: 1500))
         itemArray.append(ItemModel(imageName: "workfromhome", name: "WFH - 5 days",
-                                   point: 22000))
+                                   point: 2200))
     }
     //update rewards point when any changes on data base
     func updateRewardsPoint(point: Int) {
